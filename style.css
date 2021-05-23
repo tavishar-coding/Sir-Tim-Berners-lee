@@ -1,0 +1,93 @@
+#welcome {
+    background:linear-gradient(red 0%, yellow 100%);
+    position: absolute;
+    top: 0;
+    bottom:0;
+    left:0;
+    right:0;
+    height:800px;
+    width:100%;
+    display: table;
+}
+
+#div1 {
+ display: table-cell;
+ position: relative;
+ text-align: center;
+ vertical-align: middle;   
+}
+
+#image1 {
+    height: 250px;
+    width: 250px;
+    border-radius:50%;
+}
+h1 {
+    font-size:45px;
+    font-family: monospace;
+    font-weight:400;
+}
+#name{
+    font-size:45px;
+    font-family:cursive;
+    font-weight: 600;
+}
+
+#bio {
+    padding: 50px;
+    text-align: center;
+    padding-top: 800px;
+}
+.line {
+    height: 12px;
+    width: 100px;
+    margin: 10px auto;
+    background-color: black;
+    
+}
+p {
+    max-width:500px;
+    margin:10px auto;
+    font-size:20px;
+}
+
+.links {
+    z-index: 12;
+    position:fixed;
+    width: 100%;
+    top: 0px;
+    list-style: none;
+}
+
+.listitem {
+    padding: 20px;
+    display: inline;
+    font-family:fantasy;
+    font-size: 30px;
+    cursor:pointer;
+}
+.listitem:hover {
+    background-color: yellow;
+}
+body{
+    text-align: center;
+}
+a {
+    text-shadow: 2px 2px green;
+    
+}
+#Contact iframe { 
+width:100%;
+    
+}
+.contact1 a {
+   text-shadow:none;
+   text-decoration: none;
+}
+.contact1 h3{
+    display:inline;
+}
+#Writings a {
+   text-shadow:none;
+   text-decoration: none;
+}
